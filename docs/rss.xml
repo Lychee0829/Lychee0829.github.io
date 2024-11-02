@@ -1,24 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>荔枝的个人博客</title><link>https://Lychee0829.github.io</link><description>菜，无需多言</description><copyright>荔枝的个人博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://gd-hbimg.huaban.com/65ea5c367b6880c82e4e3babb769feab0bc7bd418e99-1wy1mk_fw658</url><title>avatar</title><link>https://Lychee0829.github.io</link></image><lastBuildDate>Thu, 22 Aug 2024 16:17:09 +0000</lastBuildDate><managingEditor>荔枝的个人博客</managingEditor><ttl>60</ttl><webMaster>荔枝的个人博客</webMaster><item><title>关于</title><link>https://Lychee0829.github.io/post/guan-yu.html</link><description>## 关于博客及它的来历&#13;
-&#13;
-啊?不会真有人翻我博客吧(乐&#13;
-&#13;
-![不是](https://tse3-mm.cn.bing.net/th/id/OIP-C.miPlLEZDfg2qsUgU6tuU1wHaEW?rs=1&amp;pid=ImgDetMain)&#13;
-&#13;
-我是一个外号为荔枝的初中牲,由于我没事干才有了博客...&#13;
-&#13;
-博客原项目为Gmeek,因为我没钱搞服务器,所以就用github pages将就一下&#13;
-&#13;
-## 关于我&#13;
-&#13;
-自我评价:啥都知道,啥也不会&#13;
-&#13;
-外号来历:我同学瞎起的,给你张图自己品&#13;
-&#13;
-&lt;img src='https://tse2-mm.cn.bing.net/th/id/OIP-C.S8etpYz9jqgpmwYlHi2CTwHaEp?rs=1&amp;pid=ImgDetMain' alt='荔枝' style='zoom:50%;' /&gt;&#13;
-&#13;
-我会什么:python markdown C++(正在学)&#13;
-&#13;
-懒得写了,保存退出&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>荔枝的个人博客</title><link>https://Lychee0829.github.io</link><description>菜，无需多言</description><copyright>荔枝的个人博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://gd-hbimg.huaban.com/65ea5c367b6880c82e4e3babb769feab0bc7bd418e99-1wy1mk_fw658</url><title>avatar</title><link>https://Lychee0829.github.io</link></image><lastBuildDate>Sat, 02 Nov 2024 13:28:03 +0000</lastBuildDate><managingEditor>荔枝的个人博客</managingEditor><ttl>60</ttl><webMaster>荔枝的个人博客</webMaster><item><title>关于</title><link>https://Lychee0829.github.io/post/guan-yu.html</link><description># 关于&#13;
+## 关于博客及它的来历&#13;
+从天上掉下来的（&#13;
+## 关于我是谁&#13;
+不知道&#13;
 &#13;
 。</description><guid isPermaLink="true">https://Lychee0829.github.io/post/guan-yu.html</guid><pubDate>Sun, 14 Jul 2024 12:02:11 +0000</pubDate></item></channel></rss>
