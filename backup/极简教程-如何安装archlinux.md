@@ -4,7 +4,7 @@
 文章写于24/11/16，内容可能过时
 
 ## 准备
-访问https://mirrors.sdu.edu.cn/mirror，点开常用镜像下载链接，下载Archlinux镜像
+访问https://mirrors.sdu.edu.cn/mirror  ，点开常用镜像下载链接，下载Archlinux镜像
 下载ventoy,地址https://mirrors.sdu.edu.cn/github-release/1731742885/github-release/ventoy_Ventoy/v1.0.99/
 下载完后制作启动盘，把镜像塞进去，然后重启，引导进入ventoy，选择archlinux
 systemctl stop reflector.service
