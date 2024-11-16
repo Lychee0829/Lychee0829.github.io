@@ -3,7 +3,8 @@
     "subTitle":"啊?",
     "avatarUrl":"https://gd-hbimg.huaban.com/65ea5c367b6880c82e4e3babb769feab0bc7bd418e99-1wy1mk_fw658",
     "GMEEK_VERSION":"last"
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>"
+    
 }
