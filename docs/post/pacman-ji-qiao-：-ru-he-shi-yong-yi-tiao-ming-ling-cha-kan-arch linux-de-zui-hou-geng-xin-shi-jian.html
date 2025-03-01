@@ -10,29 +10,21 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# 关于一些事情...
+<meta name="description" content="## 在这里可使用命令 `grep -e -Syu /var/log/pacman.log | tail -1` 
+具体解释如下：
 
-## 关于博客及它的来历
-从天上掉下来的（
+1. **`grep -e -Syu /var/log/pacman.log`**：
+   - `-e`：告诉 `grep` 下一个参数是要搜索的模式。">
+<meta property="og:title" content="pacman技巧：如何使用一条命令查看arch linux的最后更新时间">
+<meta property="og:description" content="## 在这里可使用命令 `grep -e -Syu /var/log/pacman.log | tail -1` 
+具体解释如下：
 
-## 关于我是谁
-不知道
-
-。">
-<meta property="og:title" content="关于">
-<meta property="og:description" content="# 关于一些事情...
-
-## 关于博客及它的来历
-从天上掉下来的（
-
-## 关于我是谁
-不知道
-
-。">
+1. **`grep -e -Syu /var/log/pacman.log`**：
+   - `-e`：告诉 `grep` 下一个参数是要搜索的模式。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://Lychee0829.github.io/post/guan-yu.html">
+<meta property="og:url" content="https://Lychee0829.github.io/post/pacman-ji-qiao-%EF%BC%9A-ru-he-shi-yong-yi-tiao-ming-ling-cha-kan-arch%20linux-de-zui-hou-geng-xin-shi-jian.html">
 <meta property="og:image" content="https://i2.hdslb.com/bfs/face/d5ddd60ed0ca9fece8930eb2222249af934ac8e3.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif">
-<title>关于</title>
+<title>pacman技巧：如何使用一条命令查看arch linux的最后更新时间</title>
 
 
 
@@ -65,7 +57,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">关于</h1>
+<h1 class="postTitle">pacman技巧：如何使用一条命令查看arch linux的最后更新时间</h1>
 <div class="title-right">
     <a href="https://Lychee0829.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -73,7 +65,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Lychee0829/Lychee0829.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Lychee0829/Lychee0829.github.io/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -89,11 +81,33 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>关于一些事情...</h1>
-<h2>关于博客及它的来历</h2>
-<p>从天上掉下来的（</p>
-<h2>关于我是谁</h2>
-<p>不知道</p></div>
+<div class="markdown-body" id="postBody"><h2>在这里可使用命令 <code class="notranslate">grep -e -Syu /var/log/pacman.log | tail -1</code></h2>
+<p>具体解释如下：</p>
+<ol>
+<li>
+<p><strong><code class="notranslate">grep -e -Syu /var/log/pacman.log</code></strong>：</p>
+<ul>
+<li><code class="notranslate">-e</code>：告诉 <code class="notranslate">grep</code> 下一个参数是要搜索的模式。</li>
+<li><code class="notranslate">-Syu</code>：要匹配的模式（例如，运行过 <code class="notranslate">pacman -Syu</code> 的行）。</li>
+<li><code class="notranslate">/var/log/pacman.log</code>：记录包管理器操作（如系统更新）的日志文件。</li>
+</ul>
+</li>
+<li>
+<p><strong><code class="notranslate">| tail -1</code></strong>：</p>
+<ul>
+<li>将 <code class="notranslate">grep</code> 的输出通过管道传递给 <code class="notranslate">tail -1</code>，后者返回结果的<strong>最后一行</strong>。</li>
+</ul>
+</li>
+</ol>
+<h2>原理</h2>
+<ul>
+<li><code class="notranslate">pacman</code> 命令的 <code class="notranslate">-Syu</code> 参数用于同步软件包数据库并升级所有系统软件包，相关操作会被记录到 <code class="notranslate">/var/log/pacman.log</code>。</li>
+<li>使用 <code class="notranslate">grep -e -Syu</code> 可以筛选出所有执行过完整系统更新（<code class="notranslate">pacman -Syu</code>）的记录。</li>
+<li><code class="notranslate">tail -1</code> 能提取出<strong>最近一次</strong>此类更新的日志。</li>
+</ul>
+<h2>输出结果示例</h2>
+<pre lang="log" class="notranslate"><code class="notranslate">[2025-03-01T14:29:27+0800] [PACMAN] Running 'pacman -Syu'
+</code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
